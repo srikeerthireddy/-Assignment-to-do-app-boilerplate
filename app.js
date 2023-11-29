@@ -41,4 +41,5 @@ function editTodo(indexValue){
 
     //Replace the old todo with the new todo/ updatedt todo
     listOfTodos.splice(indexValue,1,updateTodo);
+    displayTodo();
 }
